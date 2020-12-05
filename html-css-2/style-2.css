@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    height: 12vh;
+    width: 100%;
+    background-color: #89fcd6;
+    padding: 4vh 0vh;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 1.5%;
+}
+
+#rec-header {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 1%;
+    margin-top: 2vh;
+}
+
+#rectangles {
+    height: 36vh;
+    width: 98%;
+    border: dashed black 1.5px;
+    margin-left: 1%;
+}
+
+#box-1 {
+    height: 14vh;
+    width: 28vh;
+    background-color: #48187f;
+    border: #fa221c solid 3px;
+    display: inline-block;
+    margin-top: 11%;
+    margin-left: 1.5%;
+}
+
+#box-2 {
+    height: 14vh;
+    width: 14vh;
+    background-color: #0035f8;
+    border: 1.8px solid black;
+    box-shadow: 5px 5px 7.5px black;
+    display: inline-block;
+    margin-left: 1.5%;
+}
+
+#box-3 {
+    height: 28vh;
+    width: 28vh;
+    background-color: #d77493;
+    border: 1.8px solid black;
+    display: inline-block;
+    margin-left: 1.5%;
+}
+
+#circ-header {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 1%;
+    margin-top: 3vh;
+}
+
+#circles {
+    height: 57.5vh;
+    width: 98%;
+    border: dashed black 1.5px;
+    margin-left: 1%;
+}
+
+#head {
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+    border: solid black 1.5px;
+    display: block;
+    margin-left: 3%;
+    margin-top: 1%;
+    padding: 1.5vh 3vh;
+}
+
+.eyes {
+    height: 2vh;
+    width: 2vh;
+    display: inline;
+    margin-left: 15%;
+    margin-top: 25%;
+}
+
+#nose {
+    height: 3vh;
+    width: 3vh;
+    display: block;
+    margin: 10%;
+}
+
+#shoulders {
+    border-radius: 50%;
+    height: 18vh;
+    width: 18vh;
+    border: solid black 1.5px;
+    display: block;
+    margin-left: 2%;
+    padding: 1vh 7.5vh;
+}
+
+.buttons {
+    height: 2vh;
+    width: 2vh;
+    display: block;
+    margin-top: 2.5vh;
+}
+
+#knees-and-toes {
+    border-radius: 50%;
+    height: 21vh;
+    width: 21vh;
+    border: solid black 1.5px;
+    display: block;
+    margin-left: 1%;
+}
+
+#ev-header {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 1%;
+    margin-top: 3vh;
+}
+
+#everything {
+    height: 40vh;
+    width: 98%;
+    border: dashed black 1.5px;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+#large-box {
+    height: 38vh;
+    width: 38vh;
+    background-color: #f5f4de;
+    border: solid black 1.8px;
+    margin: 1vh;
+}
+
+#large-circle {
+    border-radius: 50%;
+    height: 30vh;
+    width: 30vh;
+    border: solid black 1.5px;
+    background-color: #1c7d1a;
+    padding: 5vh;
+}
+
+#small-box {
+    height: 19vh;
+    width: 19vh;
+    background-color: #a22f2e;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    margin-top: 2vh;
+    margin-left: 5vh;
+}
+
+#small-circle {
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+    background-color: #0035f8;
+}
+
+#fish {
+    height: 6vh;
+    width: 8vh;
+    margin: 3.5vh;
+}
