@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = 'A terminal that facilitates easy interaction with files, other developers, and interacting with gitHub to ensure work is properly backed up.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = 'An online platform where code can be stored in repositories. This code can be pulled, forked/cloned, and observed by multiple developers working on the same project. Developers can push projects back up to gitHub to save their work and share it with others.'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -34,6 +36,10 @@
 */
 
 //CODE HERE
+let init = {
+    description: 'This command creates a new repository.',
+    code: 'git init'
+};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +48,10 @@
 */
 
 //CODE HERE
+let clone = {
+    description: 'After forking a repository on gitHub, you can copy the code link and use it with git clone in your terminal. This deposits the forked repository onto your personal computer for your own use',
+    code: 'git clone'
+};
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +60,10 @@
 */
 
 //CODE HERE
+let status = {
+    description: 'You can use git status in your terminal on VS Code to identify if you have modified code that needs to be committed and pushed up to gitHub.',
+    code: 'git status'
+};
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +72,10 @@
 */
 
 //CODE HERE
+let add = {
+    description: 'After seeing through git status that you have modified code to commit, you first need to use git add . in order to add the changes to the queue, ready to be committed and pushed up to gitHub.',
+    code: 'git add .'
+};
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +84,10 @@
 */
 
 //CODE HERE
+let commit = {
+    description: 'Once you have added the modified code, you can commit those changes as well as record a message that will appear in gitHub stating what modifications you made to the code. This message serves as a brief record of those changes made.',
+    code: 'git commit -m"Message goes here"'
+};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +96,10 @@
 */
 
 //CODE HERE
+let addRemote = {
+    description: 'This adds a new remote into the directory your repository is located at.',
+    code: 'git remote add origin'
+};
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +108,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: 'Once your modified code is added and committed, you can use git push to push, or upload, said code to gitHub where it will be safely stored.',
+    code: 'git push'
+};
