@@ -82,6 +82,7 @@ section {
 
 .css-text {
     float: left;
+    clear: right;
     display: inline;
     font-size: 20px;
     text-align: left;
